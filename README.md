@@ -13,37 +13,33 @@ This repository has a number of LC-3 assembly language programs for different pu
 
 ## Overview
 
-The LC-3 (Little Computer 3) is a simple computer model created for educational purposes to explain the fundamentals of computer organization and assembly language programming. This repository contains several assembly language programs written in LC-3, each one showing different parts of the LC-3 instruction set and system calls.
+The LC-3 (Little Computer 3) is a simple computer model created for educational purposes to explain the fundamentals of computer organization and assembly language programming. This repository contains a compilation of assembly language programs written in LC-3, each one showing different parts of the LC-3 instruction set and system calls.
 
 ## Programs
 
-1. **Program 1: Arithmetic Operations**
+1. **Arithmetic Operations**
 
    - **Description:** Performs basic arithmetic operations and stores them into memory.
-   - **File:** `arithmetic_operations.asm`
+   - **File:** `char_Counter.asm`
    - **Usage:** Demonstrates addition, subtraction, multiplication, and division.
 
-2. **Program 2: Conditional Branching**
+2. **Conditional Branching**
 
    - **Description:** Uses conditional branching to control program flow.
-   - **File:** `conditional_branching.asm`
    - **Usage:** Demonstrates use of BR, BRz, BRp, BRn instructions.
 
-3. **Program 3: Loop Structures**
+3. **Loop Structures**
 
    - **Description:** Implements various loop structures using LC-3 assembly.
-   - **File:** `loop_structures.asm`
    - **Usage:** Shows while loops, for loops, nested loops.
 
-4. **Program 4: Input/Output Operations**
+4. **Input/Output Operations**
 
    - **Description:** Handles input from keyboard and output to console.
-   - **File:** `io_operations.asm`
    - **Usage:** Demonstrates GETC, OUT, PUTS, PUTSP instructions usage.
 
-5. **Program 5: Subroutines and Stack Management**
+5. **Subroutines and Stack Management**
    - **Description:** Implements subroutines and manages the stack.
-   - **File:** `subroutines_stack.asm`
    - **Usage:** Demonstrates the use of JSR, JSRR, RET, and stack operations.
 
 ## Getting Started
@@ -60,7 +56,7 @@ In order to work with these programs you will need an LC-3 simulator. The [LC-3 
 1. Download and install the LC-3 Simulator.
 2. Clone this repository to your local machine using the following command:
    ```sh
-   git clone https://github.com/yourusername/lc3-assembly-programs.git
+   git clone https://github.com/laz824/characterCount.git
    ```
 3. Open the LC-3 Simulator and load the desired `.asm` file.
 
@@ -74,12 +70,12 @@ In order to work with these programs you will need an LC-3 simulator. The [LC-3 
 
 ### Example
 
-To run the `arithmetic_operations.asm` program:
+To run the `char_Counter.asm` program:
 
 1. Open the LC-3 Simulator.
-2. Load the `arithmetic_operations.asm` file.
+2. Load the `char_Counter.asm` file.
 3. Assemble program.
-4. Load the generated `arithmetic_operations.obj` file.
+4. Load the generated `char_Counter.obj` file.
 5. Run program. Observe results in console and memory.
 
 ## Contributing
