@@ -119,7 +119,7 @@ Data Storage: Console output.
 - The LC-3 simulator limits program efficiency.
 - Should perform well with normal input sizes, i.e. average length names.
 
-### 4.3 Flowchart OR Pseudocode
+### 4.3 Pseudocode
 
 PROGRAM START;
 
