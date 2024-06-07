@@ -120,3 +120,25 @@ Data Storage: Console output.
 - Should perform well with normal input sizes, i.e. average length names.
 
 ### 4.3 Flowchart OR Pseudocode
+
+PROGRAM START;
+
+- Initialize register to store character frequency;
+- Initialize register to store name;
+- Set registers to zero;
+
+- Prompt the user to enter a name; (Function Call)
+- Read the name from the input;
+- Store name in array;
+
+- Prompt the user to enter a character to count; (Function Call)
+- Store character to count in register;
+
+- Loop through each character in the name array; (Function Call)
+
+  - Get the ASCII value of the character; (Function Call)
+  - Increment frequency counter if found;
+
+- Print character frequency; (Function Call)
+
+HALT PROGRAM;
